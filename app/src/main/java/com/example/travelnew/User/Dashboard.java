@@ -1,14 +1,16 @@
-package com.example.travelnew;
+package com.example.travelnew.User;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Places extends AppCompatActivity {
+import com.example.travelnew.R;
+
+public class Dashboard extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_places);
+        setContentView(R.layout.dashboard);
     }
 }
